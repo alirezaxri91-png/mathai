@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>MathPy AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🤖 MathPy AI</h1>
+<p>سوال ریاضی یا درخواست کد پایتونت رو بنویس</p>
+
+<textarea id="input" placeholder="مثلا حل معادله درجه دو با پایتون"></textarea>
+
+<br><br>
+
+<button onclick="send()">ساخت کد</button>
+
+<pre id="output"></pre>
+
+<script src="script.js"></script>
+</body>
+</html>
